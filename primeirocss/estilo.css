@@ -1,0 +1,35 @@
+*{
+    background-color: #ddffab;
+    font-family: Snell Roundhand, cursive, Apple Chancery;
+}
+
+#title{
+    font-size: xx-large;
+    font-style: italic;
+    color: #d9abff;
+}
+
+nav,a{
+    font-size: small;
+    color: #abe4ff;
+}
+
+h1{
+    color: #d9abff;
+    font-size: larger;
+}
+
+#poema{
+    color:#ffabab;
+    border-style: dashed;
+    border-color: #abe4ff; 
+    padding: 0px;
+    margin-left: 200px;
+    margin-right: 600px;
+}
+
+h5{
+    color: #d9abff;
+    font-size: x-small;
+       
+}
