@@ -1,0 +1,68 @@
+*{
+    background-color: #ddffab;
+    font-family: Snell Roundhand, cursive, Apple Chancery;
+}
+
+#title{
+    font-size: xx-large;
+    font-style: italic;
+    color: #d9abff;
+}
+
+nav, a{
+    font-size: small;
+    color: #abe4ff;
+    text-decoration: none;
+}
+
+h1{
+    color: #d9abff;
+    font-size: larger;
+}
+
+p.poema{
+    color:#ffabab;
+    border-style: dashed;
+    border-color: #abe4ff; 
+    padding: 0px;
+    margin: 0px;
+    display: inline-block;
+    width: 400px;
+    height: 450px;
+}
+
+h5{
+    color: #d9abff;
+    font-size: small;
+    margin-top: 0;       
+}
+
+#creditos{
+    margin-left: 300px;
+}
+img{
+    width: 150px;
+    height: 250px;
+}
+
+figure{
+    display: inline-block;
+    color:#ffabab;
+}
+
+figure:active{
+    color:#abe4ff;
+}
+
+footer{
+    color: #d9abff;
+    border: dashed #d9abff;
+}
+
+
+/*pseudo-classe*/
+nav a:hover{
+    /*link dentro da nav */
+    text-decoration: underline;
+    background-color: #d9abff9c;  /*rgba*/
+}
