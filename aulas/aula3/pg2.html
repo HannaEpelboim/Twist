@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>aula3</title>
+</head>
+<body>
+    <div id="conteudo">
+        <header></header>
+        <nav>
+            <a href="index.html"> Home</a>
+            <a href="pg2.html"> Form 2</a>
+        </nav>
+        <section>
+            <form action="" method="get">
+                <fieldset>
+                    <legend>Dados Pessoais:</legend>
+                    <label for="">Nome: </label>
+                    <input type="text" name="nome" id="nome"
+                        maxlength="100"
+                        size="50"
+                        required
+                        autofocus="autofocus">
+
+                    <br>
+                    <br>
+                    <label for="">Idade: </label>
+                    <input type="text" name="idade" id="idade"
+                        maxlength="3" required size="3">
+                    <br>
+                    <br>
+                    <label for="">CPF: </label>
+                    <input type="text" name="cpf" id="cpf"
+                        size="12" maxlength="12" readonly placeholder="apenas para ler :)">
+
+                </fieldset>
+                <br>
+
+                <fieldset>
+                    <legend>Endereço:</legend>
+                    <label for="">CEP: </label>
+                    <input type="text" name="text" id="text" 
+                     placeholder="xxxxxxxxx-xx">
+                    <br>
+                    <br>
+                    <label for="">Logradouro: </label>
+                    <input type="text" name="log" id="log" disabled placeholder="desabilitado">
+                    <br>
+                    <br>
+                    <label for="">Bairro: </label>
+                    <input type="text" name="bairro" id="bairro">
+                    <br>
+                    <br>
+                    <label for="">Cidade: </label>
+                    <input type="text" name="cidade" id="cidade">
+                    <br>
+                    <br>
+                    <label for="">UF: </label>
+                    <input type="text" name="uf" id="uf">
+
+                </fieldset>
+                <br>
+                <fieldset>
+                    <legend>Listas: </legend>
+                    <label for="preferida"> Fruta preferida:</label>
+                    <input list="fruta" name="preferida" id="preferida">
+                    <datalist id="fruta">
+                        <option value="Banana"></option>
+                        <option value="Maça"></option>
+                        <option value="Morango"></option>
+                        <option value="Melão"></option>
+                        <option value="Perâ"></option>
+
+                    </datalist>
+
+                    <br>
+                    <label>Comida preferida: </label>
+                    <select name="" id="">
+                        <option value=""></option>
+                        <option value="Sushi">Sushi</option>
+                        <option value="Pastel">Pastel</option>
+                        <option value="Macarrão">Macarrão</option>
+                        <option value="Coxinha">Coxinha</option>
+                        <option value="Churrasco">Churrasco</option>
+
+
+                    </select>
+                    <br>
+                    <label for="bebida">Bebida: </label>
+                    <select>
+                        <option value=""></option>
+                        <optgroup label="Refrigerante">
+                            
+                            <option value="CocaCola">CocaCola</option>
+                            <option value="Guarana">Guarana</option>
+                            <option value="FTUva">Fanta Uva</option>
+
+                        </optgroup>
+                        <optgroup label="Suco">
+                            <option value="Maça">Maça</option>
+                            <option value="Maracujá">Maracujá</option>
+                            <option value="Tangerina">Tangerina</option>
+                            <option value="Laranja">Laranja</option>
+
+
+
+                        </optgroup>
+                    </select>
+
+
+
+
+                </fieldset>
+                <label>Escreva sua opinião: </label><br>
+                <textarea name="opinião" id="opinião" cols="50" rows="5"></textarea>
+                <br><br>
+                <input type="button" value="Salvar">
+                &nbsp;&nbsp;
+                <button type="button">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Yellow_gerberas.JPG/240px-Yellow_gerberas.JPG" 
+                    alt="Gerbera" title="Gerberas amarelas"
+                    width="100" height="100">
+                    &nbsp;<strong>Gerberas</strong>
+                </button>
+                &nbsp;&nbsp;
+                <input type="submit" value="Submeter">
+            </form>
+        </section>
+        <footer></footer>
+
+
+    </div>
+</body>
+</html>

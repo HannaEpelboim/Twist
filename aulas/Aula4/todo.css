@@ -1,0 +1,54 @@
+/*para todo*/
+*{ 
+    font-size: large;
+    color: chocolate;
+
+}
+/*por elemento*/
+p{
+    font-size: smaller;
+    color: rgb(30, 174, 210);
+
+}
+/*por grupo*/
+h1,h2,h3{
+    font-size: x-large;
+    color: cadetblue;
+}
+/*Descendente*/
+nav a{
+    color: navajowhite;
+}
+/*individual*/
+/*
+#idElemento
+*/
+#conteudo{
+    background-color: rgb(235, 143, 143);
+}
+/*classes*/
+/*
+.nomeClasse = generica
+elemento.nomeClasse = classe vinculada a um tipo de elemento
+*/
+li.item{
+    color:indigo;
+}
+.generica{
+    color: black;
+}
+/*configurar box model*/
+#secao{
+    border:5px solid rgb(35, 46, 204);
+}
+
+p.borda{
+    border-bottom: 3px;
+    border-top: 1px;
+    border-left: 2px;
+    border-right: 5px;
+    border-style: dashed;
+    border-color: darkslategrey;
+    margin: 20px; /*margem fora da borda*/
+    padding: 5px; /*margem dentro da borda*/
+}
