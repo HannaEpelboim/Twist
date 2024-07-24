@@ -1,0 +1,37 @@
+/*regras de fontface*/
+
+@font-face {
+    font-family: 'playNormal';
+    src: url(fontes/PlaywriteAT-VariableFont_wght.ttf);
+
+}
+
+@font-face {
+    font-family: 'playOther' ;
+    src: url(fontes/PlaywriteAT-Italic-VariableFont_wght.ttf);
+
+}
+
+p.fonte1{
+    font-size: 30pt;
+    text-align: center;
+    font-family: 'playNormal';
+    color: blueviolet;
+
+}
+
+div.conteudo{
+    width: 30%;
+    height: 30%;
+    background-color: bisque;
+    display: inline-block;
+
+}
+
+#conteudo2{
+    font-family: 'playOther';
+    font-size: 20pt;
+    text-align: center;
+    display: inline-block;
+
+}
