@@ -1,0 +1,47 @@
+div.relativa{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(243, 102, 130);
+    color: rgb(83, 47, 247);
+    text-align: center;
+    text-decoration: overline;
+    font-size: larger;
+    font-style: oblique;
+    font-family: monospace;
+    position: relative;
+    top: 30px;
+    left: 350px;
+    margin: 3px;
+    display: flex;
+}
+
+div.absoluta{
+    width: 150px;
+    height: 300px;
+    background-color: rgb(241, 229, 121);
+    color: rgb(245, 28, 162);
+    font-size: small;
+    font-style: italic;
+    font-family: times;
+    text-decoration: none;
+    position: absolute;
+    top: 0;
+    left: 0px;
+    margin: 10px;
+    display: flex;
+}
+
+div.fixa{
+    width: 300px;
+    height: 150px;
+    background-color: rgb(134, 196, 247);
+    color: rgb(255, 9, 9);
+    font-size: medium;
+    font-style: oblique;
+    font-family: 'Lucida Sans';
+    text-decoration: wavy;
+    position: fixed;
+    top: 500px;
+    left: 200px;
+    display: flex;
+}

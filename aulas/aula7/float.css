@@ -1,0 +1,31 @@
+div{
+    width: 450px;
+    display: inline;
+}
+
+#um{
+    float: left;
+    background-color: aqua;
+    color: black;
+    padding-bottom: 10px;
+}
+
+#dois{
+    float: left;
+    background-color: blue;
+    color: aliceblue;
+    padding-bottom: 10px;
+
+}
+
+#tres{
+    float: left;
+    background-color: beige;
+    color: blueviolet;
+}
+
+#quatro{
+    float: left;
+    background-color: brown;
+    color: cornsilk;
+}
