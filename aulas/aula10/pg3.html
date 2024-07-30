@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula10</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="scripts/func.js"></script>
+    <script>
+        window.onload = function(){
+            let btn = document.querySelector("#btnExemplo1");
+            console.log(btn);
+            btn.onclick = function(){
+                alert("Teste botão 1");
+                mostrarDados();
+            }
+            console.log(btn);
+        }
+        //exemplo da segunda forma
+        window.addEventListener("load",function(){
+            let btn = document.querySelector("#btnExemplo2");
+            console.log(btn);
+            btn.addEventListener("click", function(){
+                alert("teste btn 2");
+                let resp = CalcTrapezio();
+                alert(resp);
+            });
+        });
+
+    </script>
+</head>
+<body>
+    <div id="container">
+        <header id="header"></header>
+        <nav id="navigator">
+            <a href="index.html">Break</a> |
+            <a href="pg2.html">Array</a> |
+            <a href="pg3.html">Funções</a>
+
+        </nav>
+        <section id="main">
+            <form action="">
+                <label for="txtNome">Nome: </label>
+                <input type="text" name="txtNome" id="txtNome">
+                <br>
+                <label for="txtCPF">CPF: </label>
+                <input type="text" name="txtCpf" id="txtCpf">
+                <br>
+                <fieldset>
+                    <legend>Hobbies: </legend>
+                    <input type="checkbox" name="hobbies" id="livros" value="livros">
+                    <label for="livros">Livros</label>
+                    <input type="checkbox" name="hobbies" id="series" value="series">
+                    <label for="series">Series</label>
+                    <input type="checkbox" name="hobbies" id="filmes" value="filmes">
+                    <label for="filmes">Filmes</label>
+
+                </fieldset>
+                <button id="btnExemplo1">Exemplo 1</button>
+                &nbsp;&nbsp;
+                <button id="btnExemplo2">Exemplo 2</button>
+
+            </form>
+        </section>
+        <footer id="footer"></footer>
+    </div>
+    <!-- <script>
+        //chamada da primeira função
+        CalcQuadrado();
+        //chamada da segunda função
+        CalcRetangulo(2,3.7);
+        //chamada da tercera função
+        let resp = CalcTriangulo(1.5,3.8);
+        console.log(resp);
+        //chamada da quarta função
+        resp = CalcTrapezio();
+        console.log(resp);
+    </script> -->
+</body>
+</html>
