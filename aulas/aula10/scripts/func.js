@@ -41,6 +41,19 @@ function mostrarDados(){
    let livro=document.querySelector("#livros");
     if(livro.checked){
         texto+=document.querySelector("#livros").value;
+        livro+= 'style = color #f00';
     }
+
+    //pegar todos os checkbox
+    let hobbies = document.getElementsByName("hobbies");
+    console.log(hobbies);
+    for(h of hobbies){
+        if(h.checked){
+            texto+=h.value;
+            texto+='\n';
+            //console.log(h.value);
+        }
+    }
+
     alert(texto);
 }
