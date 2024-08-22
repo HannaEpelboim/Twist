@@ -20,8 +20,8 @@ function validarExtensao(arquivo,extensao){
     }
 
     //outra maneira
-    let resp = arquivo.files[0];
-    alert("Segunda forma"+resp.name);
+    // let resp = arquivo.files[0];
+    // alert("Segunda forma"+resp.name);
 
 
 }
@@ -32,7 +32,7 @@ function validarSenha(senha){
 }
 
 function validarDatanasc(dtNasc){
-
+    let exp = /\b(\d+\/+\d+\/+d)\b/g;
 
 }
 
