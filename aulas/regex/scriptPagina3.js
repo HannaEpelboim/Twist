@@ -9,7 +9,13 @@ function substituir(entrada,altera){
 }
 
 function cortar(entrada,corte){
+    let result = entrada.split(" ");
+    alert(result);//toda lista
 
+    //elemento da lista
+    for (elemento of result){
+        alert(elemento);
+    }
 }
 
 window.addEventListener("load",function(){
